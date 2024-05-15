@@ -28,11 +28,14 @@ defined('MOODLE_INTERNAL') || die;
 require_once($CFG->libdir . "/formslib.php");
 
 // Form for uploading CSV of users.
+    /**
+     * Extending moodle base class for form handling.
+     */
 class csv_upload_form extends moodleform {
+    // Definition function.
     /**
      * Defines the form.
      */
-    // Definition function.
     public function definition() {
 
         $mform = $this->_form;

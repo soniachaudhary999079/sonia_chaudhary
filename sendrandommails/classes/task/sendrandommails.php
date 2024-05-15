@@ -1,5 +1,4 @@
-<?php
-// This file is part of Moodle - http://moodle.org/
+<?php // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -15,8 +14,6 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Adhoc task to send email to users of local_sendrandommails.
- *
  * @package    local_sendrandommails
  * @copyright  2024 Send Random Email To Users
  * @author     Sonia Chaudhary (sonia999079@gmail.com)
@@ -27,6 +24,9 @@ namespace local_sendrandommails\task;
 
 use stdClass;
 
+/**
+ * Scheduled task to send email to users of local_sendrandommails.
+ */
 class sendrandommails extends \core\task\scheduled_task {
 
     /**

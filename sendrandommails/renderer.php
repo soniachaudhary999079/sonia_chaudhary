@@ -15,14 +15,15 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Renderer for local_sendrandommails.
- *
  * @package    local_sendrandommails
  * @copyright  2024 Send Random Email To Users
  * @author     Sonia Chaudhary (sonia999079@gmail.com)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
+/**
+ * Renderer for local_sendrandommails.
+ */
 class local_sendrandommails_renderer extends plugin_renderer_base {
 
     /**
@@ -92,6 +93,9 @@ class local_sendrandommails_renderer extends plugin_renderer_base {
     }
 
     // Function to add navigation links.
+    /**
+     * This function will display buttons for navigation.
+     */
     public function local_navigation() {
         $o = '';
         $o .= html_writer::link(

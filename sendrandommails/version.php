@@ -25,6 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version   = 2024010400.19; // Sendrandommails plugin version.
+$plugin->version   = 2024051500; // Sendrandommails plugin version.
 $plugin->requires  = 2022041905; // Moodle 4.0.5.
 $plugin->component = 'local_sendrandommails';
